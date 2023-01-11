@@ -76,7 +76,7 @@ export default createGlobalStyle`
     outline: 1px solid var(--primary-color);
     border: none;
     font-family: var(--heading-font-family);
-    margin: 0 10px;
+    margin-right: 10px;
 
     &:focus {
       outline: 2px solid var(--primary-color);

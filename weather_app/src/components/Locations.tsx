@@ -11,7 +11,6 @@ export const Locations: FC<LocationsProps> = ({locations, onSelect}) => {
   
   return (
     <Wrapper>
-      {locations.length > 0 && <h2>Locations</h2>}
       <ul>
           {locations.map((location, index) => 
             <li key={index} 
@@ -28,8 +27,8 @@ export const Locations: FC<LocationsProps> = ({locations, onSelect}) => {
 const Wrapper = styled.div`
   li {
     border-bottom: 1px solid #c0c0c0;
-    width: 200px;
     padding: 5px 10px;
+    width: 200px;
 
     &:hover {
       background-color: var(--secondary-background-color);
