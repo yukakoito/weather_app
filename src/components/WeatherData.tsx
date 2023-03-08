@@ -14,7 +14,7 @@ const convertDate = (unixUtc: number): string => {
 }
 
 const getIconUrl = (code: string): string => {
-  return `http://openweathermap.org/img/wn/${code}.png`
+  return `https://openweathermap.org/img/wn/${code}.png`
 }
 
 const convertToUppecase = (text: string): string => {

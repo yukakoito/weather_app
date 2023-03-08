@@ -2,7 +2,7 @@ import { Weather, WeatherLocation } from "../model/Weather";
 
 const key: string = process.env.REACT_APP_OPEN_WEATHER_API_KEY as string;
 if (!key) throw new Error("Invalid Open Weather API Key");
-const url = "http://api.openweathermap.org/data/2.5/";
+const url = "https://api.openweathermap.org/data/2.5/";
 
 export const searchLocation = async (
   term: string
